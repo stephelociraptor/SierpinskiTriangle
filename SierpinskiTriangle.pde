@@ -6,7 +6,7 @@ public void setup()
 }
 public void draw()
 {
-  stroke(#8E242B);
+  stroke(#FFFFFF);
   fill (#FFB4B9);
   sierpinski(50,250,200);
 }
