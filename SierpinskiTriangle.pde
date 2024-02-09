@@ -7,7 +7,10 @@ public void setup()
 public void draw()
 {
   stroke(#FFFFFF);
-  fill (#FFB4B9);
+  //fill (#FFB4B9);
+  if (mousePressed){
+    fill(random(255), random(255), random(255));
+  }
   sierpinski(100,400,300);
 }
 
