@@ -1,19 +1,19 @@
 public void setup()
 {
 
-  size (300,300);
+  size (500,500);
   background(0);
 }
 public void draw()
 {
   stroke(#FFFFFF);
   fill (#FFB4B9);
-  sierpinski(50,250,200);
+  sierpinski(100,400,300);
 }
 
 public void sierpinski(int x, int y, int len) 
 {
-  if (len <= 20){
+  if (len <= 10){
    triangle (x,y, x+len, y, x+ len/2, y-len);
  }
  else {
